@@ -182,7 +182,7 @@
   #top-characters {
     height: 100%;
     background-color: var(--character-top-image-color);    
-    bottom: -3px;
+    bottom: 55px;
     mask: var(--character-top-image-src) bottom / 100% no-repeat;
     -webkit-mask: var(--character-top-image-src) bottom / 100% no-repeat;
   }
@@ -272,12 +272,36 @@
     border-image-slice: 10;
   }
 
+  #section-stranger-things-trailer .section-texts-left {
+    width: 50%;
+    text-align: left;
+  }
+
+  #section-stranger-things-trailer .video-frame-right {
+    background-color: var(--primary-color);
+  }
+
+  #section-stranger-things-trailer .video-frame-right iframe {
+    position: relative;
+    bottom: 24px;
+    right: 24px;
+    border: 2px solid;
+    border-image: linear-gradient(
+      var(--primary-color),
+      var(--primary-color-contrast)
+    );
+    border-image-slice: 10;
+  }
+
+  
+
+
   /** section 3 **/
 
   #section-stranger-things-gallery {
-    width: 100%;
+    width: 100%;    
     justify-content: center;
-    background: var(--background-lamp-image) 120% / 50% no-repeat;
+    /* background: var(--background-lamp-image) 140% / 40% no-repeat; */
   }
 
   #section-stranger-things-gallery .container {
@@ -297,7 +321,7 @@
 
   #section-stranger-things-gallery .gallery-image {
     width: 250px;
-    height: 250px;
+    height: auto;
     outline: 20px solid var(--highlight-color);
     border: 3px solid var(--primary-color);
     box-sizing: initial;
@@ -318,10 +342,11 @@
   align-items: center;
   gap: 40px;
   text-align: center;
+  padding-top: 85px;
 }
 
 #section-form h2 {
-  width: 600px;
+  width: 100%;
 }
 
 #section-form .form-content h3 {
