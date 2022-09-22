@@ -194,22 +194,22 @@
           <br><br><br>
           <ul class="gallery-container" role="gallery">
             <li class="gallery-image invert-element">
-              <img src="assets/images/content/serie-image-13.jpg" alt="Imagem de Vecna" />
+              <img src="assets/images/content/serie-image-13.jpg" alt="Imagem ilustrativa dos amigos de Eleven" />
             </li>
             <li class="gallery-image invert-element">
               <img src="assets/images/content/serie-image-14.jpg" alt="Imagem ilustrativa dos amigos de Eleven" />
             </li>
             <li class="gallery-image invert-element">
-              <img src="assets/images/content/serie-image-15.jpg" alt="Imagem Eleven assustada" />
+              <img src="assets/images/content/serie-image-15.jpg" alt="Imagem Eleven sem poderes" />
             </li>
             <li class="gallery-image invert-element">
-              <img src="assets/images/content/serie-image-16.jpg" alt="Imagem de Vecna" />
+              <img src="assets/images/content/serie-image-16.jpg" alt="Imagem Eleven sendo presa" />
             </li>
             <li class="gallery-image invert-element">
-              <img src="assets/images/content/serie-image-17.jpg" alt="Imagem ilustrativa dos amigos de Eleven" />
+              <img src="assets/images/content/serie-image-17.jpg" alt="Imagem Eddie" />
             </li>
             <li class="gallery-image invert-element">
-              <img src="assets/images/content/serie-image-18.jpg" alt="Imagem Eleven assustada" />
+              <img src="assets/images/content/serie-image-18.jpg" alt="Imagem ilustrativa dos amigos de Eleven" />
             </li>       
           </ul>
         </div>
@@ -230,17 +230,20 @@
 
           <div class="form-container">
             <form>
-              <label for="name">Nome Completo</label>
-              <input type="text" name="name" id="txtName">
+              <div id="messageError"></div>
+              <div id="messageSuccess"></div>
+
+              <label id="labelName" for="name">Nome Completo</label>
+              <input type="text" name="name" id="txtName" placeholder="digite seu nome completo">
           
-              <label for="email">E-mail</label>
-              <input type="email" name="email" id="txtEmail">
+              <label id="labelEmail" for="email">E-mail</label>
+              <input type="email" name="email" id="txtEmail" placeholder="exemplo@exemplo.com.br">
           
-              <label for="level">Level</label>
-              <input type="number" name="level" id="txtLevel">
+              <label id="labelWhats" for="whats">Whats App</label>
+              <input type="text" name="whats" id="txtWhats" placeholder="(xx) xxxxx-xxxx">
           
-              <label for="character">Personagem</label>
-              <textarea name="character" cols="30" rows="3" id="txtCharacter"></textarea>
+              <label id="labelCharacter" for="character">Mensagem para a aniversariante</label>
+              <textarea name="character" cols="30" rows="5" id="txtCharacter"></textarea>
             
               <button type="button" id="btnSubscribe">Me inscrever</button>              
               

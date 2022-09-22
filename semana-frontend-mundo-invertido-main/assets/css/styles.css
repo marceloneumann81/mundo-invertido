@@ -443,6 +443,24 @@ footer::after {
 }
 
 
+#messageError {
+  text-align: center;
+  color: #cf0f0f;
+  background-color: #ffbbbb;
+  padding: 10px;
+  border-radius: 4px;
+  display: none;
+}
+
+#messageSuccess {
+  text-align: center;
+  color: #00bb00;
+  background-color: #bbffbe;
+  padding: 10px;
+  border-radius: 4px;
+  display: none;
+}
+
 
 
 
